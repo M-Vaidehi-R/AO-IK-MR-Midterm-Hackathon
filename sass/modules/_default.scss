@@ -3,8 +3,12 @@ body{
     background-color: $main-bg;
 }
 
-.green{
-    background-color: $main-green;
+.colour{
+    background-color: $main-colour;
+    margin-bottom:5rem ;
+}
+.product-panel{
+    margin: 2em;
 }
 
 .blue{
@@ -13,6 +17,17 @@ body{
 
 .white{
     background-color: $main-bg;
+}
+
+.about p {
+    margin: 3rem 8rem 5rem 8rem;
+    font-size: 25px;
+}
+
+.about h2{
+    margin-left: 60rem;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 footer {
@@ -36,4 +51,25 @@ footer {
     margin-top: 1em;
     width:80%;
     height: 80%;
+  }
+  
+  .hero-img img{
+    margin-left: 2.5em;
+    margin-right: 1.5em;
+    margin-bottom: 5em;
+    width: 95%;
+    height:95%;
+  }
+
+  img {
+    width: 50%;
+    height:50%;
+    margin: 2em;
+  }
+
+  .picture{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40rem;
+    margin-bottom: 2rem;
   }
