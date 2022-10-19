@@ -1,9 +1,9 @@
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 770px) {
 body{
     background-color: $main-bg;
     color: $main-colour;
     font-family:$main-font;
-    font-size: 9.5px;
+    font-size: 16px;
 }
 
 .green{
@@ -13,5 +13,66 @@ body{
 .white{
     height:155px;
 }
+
+.burger {
+    display:block;
+    cursor: pointer;
+    margin-left: 25em;
+    margin-top: -15em;
+}
+
+.header nav {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 3em;
+    font-family: $main-font;
+    margin-top: 8em;
+  }
+
+  ul{
+    display: block;
+    font-family: $main-font;
+    font-size: 1.25em;
+    margin-right:0em;
+}
+
+.user-login ul li{
+    margin-left: 6em;
+    margin-right: 5em;
+}
+
+  .nav-links  {
+    margin-left: 6em;
+    height: 30em;
+    background-color: $main-bg;
+    transform: translateX(150%);
+    transition: transform 0.1s ease-in ;
+    padding: 0em;
+    z-index: 999;
+    margin-top: 5em;
+  }
+
+  .nav-links ul li{
+
+    color: $main-text-grey;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 1em;
+    opacity: 1;
+    text-align: center;
+    margin-top: 2em;
+  }
+
+  .nav-active{
+    transform: translateX(25%);
+    transition: .5s ease-in;
+  }
+
+  .nav-links li:hover{
+    text-decoration: underline;
+  }
 
 }

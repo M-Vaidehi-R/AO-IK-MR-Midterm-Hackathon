@@ -1,0 +1,42 @@
+@media screen and (min-width: 1800px) {
+
+    body{
+    font-size: 25px;
+        }
+    
+        .green{
+            height: 525px;
+        }
+        
+        .white{
+            height:525px;
+        }
+
+        .header nav{
+            display: inline-flex;
+        }
+        
+        ul{
+            display: inline-flex;
+            font-family: $main-font;
+            font-size: 1.25em;
+        }
+        .main-nav ul{
+            margin-left: 14em;
+        }
+        .main-nav ul li{
+            margin-left: 3em;
+        }
+        
+        .user-login ul{
+            margin-left: 45em;
+            margin-top: -50em;
+        }
+        .user-login ul li{
+            margin-left: 3em;
+        }
+        .user-login {
+            margin-top: -1em;
+        }
+        // end nav positions for desktop
+    }

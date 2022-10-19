@@ -2,7 +2,11 @@
 @import "./modules/_vars.scss";
 
 @import "./modules/_default.scss";
+@import "./modules/_header.scss";
+
 @import "./modules/_mobile-queries.scss";
-//@import "./modules/_tablet-queries.scss";
+@import "./modules/_tablet-queries.scss";
+@import "./modules/_desktop-queries.scss";
+
 
 
