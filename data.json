@@ -1,0 +1,11 @@
+{
+    "Thermostat": {
+        "colours": ["Black","White","Grey","Green","Blue"],
+        "images" : ["black.jpg","white.jpg","grey.jpg","green.jpg","blue.jpg"],
+        "name" : "Thermostat",
+        "category": "Thermal Security",
+        "price" : ["299.99","349.99"],
+        "tagline": "A solid for all seasons",
+        "spec": ["type","width","height","sensors","memory","power consuption","connectivity"]
+    }
+}
