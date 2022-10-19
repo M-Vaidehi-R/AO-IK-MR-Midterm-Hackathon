@@ -13,14 +13,14 @@ font-size: 25px;
     }
 
     
-    .header nav{
+    .header{
         display: inline-flex;
     }
     
     ul{
         display: inline-flex;
         font-family: $main-font;
-        font-size: 1em;
+        font-size: .85em;
     }
     .main-nav ul{
         margin-left: 8em;
@@ -29,15 +29,15 @@ font-size: 25px;
         margin-left: 2em;
     }
     
+    .user-login{
+
+        margin-top: -1em;
+    }
     .user-login ul{
-        margin-left: 40em;
-        margin-top: -50em;
+        margin-left: 30em;
     }
     .user-login ul li{
         margin-left: 1em;
-    }
-    .user-login {
-        margin-top: -1em;
     }
 
     footer {
@@ -55,5 +55,10 @@ font-size: 25px;
         margin-left: 1em;
         display: inline-block;
        
+    }
+    .logo img{
+        width:200%;
+        height: 200%;
+        margin-top: -2.5em;
     }
 }
