@@ -1,0 +1,46 @@
+.header{
+    margin:4em;
+}
+
+//nav positions for desktop
+
+.header nav{
+    display: inline-flex;
+}
+
+ul{
+    display: inline-flex;
+    font-family: $main-font;
+    font-size: 1.25em;
+}
+.main-nav ul{
+    margin-left: 14em;
+}
+.main-nav ul li{
+    margin-left: 3em;
+}
+
+.user-login ul{
+    margin-left: 45em;
+    margin-top: -50em;
+}
+.user-login ul li{
+    margin-left: 3em;
+}
+.user-login {
+    margin-top: -em;
+}
+// end nav positions for desktop
+
+.burger div{
+    width:40px;
+    height: 6px;
+    background-color: #F15A29;
+    margin:8px;
+    border-radius: 5px;
+    margin-right: 0em;
+  }
+
+  .burger {
+    display:none;
+  }
