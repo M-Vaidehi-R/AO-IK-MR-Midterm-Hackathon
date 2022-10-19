@@ -3,7 +3,8 @@
     console.log("Midterm hackathon");
     let BMenu = document.querySelector(".burger"),
     nav= document.querySelector(".nav-links"),
-    MenuOpen = false;
+    MenuOpen = false,
+    Product_Picture = document.querySelector(".picture");
 
     let thermostat_data= {};
 
@@ -17,13 +18,16 @@
         .then(data => {
             thermostat_data = data;
             console.table(thermostat_data);
+            console.log(thermostat_data["colours"]);
             console.log("json object converted to regular js object");
+            DispImg(thermostat_data.Thermostat.images);
         })
 
-        .catch(error => console.log(error));
-        console.log("error handling working");
+        .catch(error => console.log("error is",error));
+       
+        //console.log("error handling working");
     }
-    getdata();
+
 
     //Hamburger Menu
     BMenu.addEventListener("click", ()=> {
@@ -38,5 +42,18 @@
     })
 
     //HamburgerMenu End
+   
+    function DispImg(images) {
+
+        images.forEach(img => {
+            let newImg = document.createElement("img");
+            newImg.src = `images/${img}`;
+            console.log(newImg.src);
+            Product_Picture.appendChild(newImg);
+
+        })
+    }
+
+    getdata();
     
 })();

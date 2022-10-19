@@ -14,11 +14,18 @@ body{
     height:155px;
 }
 
+.hero-img{
+  display:none;
+}
+
+.about {
+  display:none;
+}
 .burger {
     display:block;
     cursor: pointer;
     margin-left: 25em;
-    margin-top: -17em;
+    margin-top: -16em;
 }
 
 .header nav {
