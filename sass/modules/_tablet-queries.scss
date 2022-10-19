@@ -11,4 +11,49 @@ font-size: 25px;
     .white{
         height:525px;
     }
+
+    
+    .header nav{
+        display: inline-flex;
+    }
+    
+    ul{
+        display: inline-flex;
+        font-family: $main-font;
+        font-size: 1em;
+    }
+    .main-nav ul{
+        margin-left: 8em;
+    }
+    .main-nav ul li{
+        margin-left: 2em;
+    }
+    
+    .user-login ul{
+        margin-left: 40em;
+        margin-top: -50em;
+    }
+    .user-login ul li{
+        margin-left: 1em;
+    }
+    .user-login {
+        margin-top: -1em;
+    }
+
+    footer {
+        margin-left: 15em;
+        margin-top: 3em ;
+    }
+    
+    .footer-nav{
+        margin-left: 8em;
+        margin-top: 1em;
+    }
+    .footer-nav p {
+    
+        margin-top: 1em;
+        margin-left: 1em;
+        display: inline-block;
+       
+    }
 }
