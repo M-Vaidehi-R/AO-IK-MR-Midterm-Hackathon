@@ -4,7 +4,7 @@
         "images":["black.jpg","white.jpg","grey.jpg","blue.jpg"],
         "name" : "Thermostat",
         "category": "Thermal Security",
-        "price" : ["299.99","349.99"],
+        "price" : ["349.99","299.99"],
         "tagline": "A solid for all seasons",
         "spec": ["type","width","height","sensors","memory","power consuption","connectivity"]
     }
