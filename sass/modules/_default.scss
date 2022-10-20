@@ -14,6 +14,7 @@ body{
     display: none;
     background-color: rgba(83, 82, 80, 0.116);
 }
+
 .Prod-Info h2{
   font-size: larger;
   font-weight: 900;
@@ -42,17 +43,6 @@ body{
 }
 ul li:hover{
     color:$main-colour;
-}
-
-.about p {
-    margin: 3rem 8rem 5rem 8rem;
-    font-size: 25px;
-}
-
-.about h2{
-    margin-left: 60rem;
-    font-size: 2rem;
-    font-weight: bold;
 }
 
 footer {
@@ -98,11 +88,7 @@ footer {
     margin-left: 1rem;
     margin-bottom: 2rem;
   }
-  .picture img {
-    width:50%;
-    height: 50%;
-    border: $main-colour solid 1rem;
-  }
+
 
   .nav-buttons{
     margin-top:2rem;

@@ -24,6 +24,7 @@ font-size: 25px;
     }
     .main-nav ul{
         margin-left: 8em;
+        margin-top: 2em;
     }
     .main-nav ul li{
         margin-left: 2em;
@@ -34,10 +35,21 @@ font-size: 25px;
         margin-top: -1em;
     }
     .user-login ul{
-        margin-left: 30em;
+        margin-left: 32em;
     }
     .user-login ul li{
         margin-left: 1em;
+    }
+
+    .about p {
+        margin: 3rem 4rem 5rem 8rem;
+        font-size: 23px;
+    }
+    
+    .about h2{
+        margin-left: 40rem;
+        font-size: 2rem;
+        font-weight: bold;
     }
 
     footer {
@@ -61,4 +73,38 @@ font-size: 25px;
         height: 200%;
         margin-top: -2.5em;
     }
-}
+
+    .picture img {
+        width:22%;
+        height: 22%;
+        border: $main-colour solid .5rem;
+      }
+      img {
+        margin: 1.5rem;
+      }
+
+      button {
+        margin-left:5rem;
+        margin-right: 5rem;
+      }
+    .View_Prod_button{
+        margin-left:37rem;
+        margin-bottom: 2rem;
+      }
+      .Prod-Info{
+        background-color: rgba(83, 82, 80, 0.116);
+        height: 10rem;
+        color:$main-text-grey;
+        margin-left:10rem;
+        margin-right: 10rem;
+        margin-top: 3rem;
+        border: $main-colour solid 3px;
+      }
+    }
+
+
+      .close{
+        display: none;
+        margin-left: 60rem;
+      
+      }
