@@ -24,8 +24,6 @@
         .then(data => {
             thermostat_data = data;
             console.table(thermostat_data);
-            console.log(thermostat_data["colours"]);
-            console.log("json object converted to regular js object");
             DispImg(thermostat_data.Thermostat.images);
             buttons.forEach(button => button.addEventListener("click",DispInfo(thermostat_data.Thermostat.name, thermostat_data.Thermostat.colours,thermostat_data.Thermostat.price,thermostat_data.Thermostat.tagline)));
         })

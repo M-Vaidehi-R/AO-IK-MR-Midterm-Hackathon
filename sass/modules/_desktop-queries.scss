@@ -15,6 +15,17 @@
         .header nav{
             display: inline-flex;
         }
+
+        .about p {
+            margin: 3rem 8rem 5rem 8rem;
+            font-size: 25px;
+        }
+        
+        .about h2{
+            margin-left: 60rem;
+            font-size: 2rem;
+            font-weight: bold;
+        }
         
         ul{
             display: inline-flex;
@@ -75,6 +86,13 @@
             margin-right: 30rem;
             margin-top: 3rem;
             border: $main-colour solid 3px;
+          }
+
+
+          .picture img {
+            width:50%;
+            height: 50%;
+            border: $main-colour solid 1rem;
           }
           .close{
             display: none;
