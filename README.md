@@ -3,9 +3,9 @@
 ### Project Description
 Create an one scroll webpage, for a thermostat device. Create a database using JSON object and retrieve that in JS and display the information on the page.
 ### Team Members
-Aymaan Oulifi
-Ishpreet kaur
-Mamatha Ramesh
+* Aymaan Oulifi
+* Ishpreet kaur
+* Mamatha Ramesh
 
 ### Product Model
 ![black](https://user-images.githubusercontent.com/90973094/196938074-db9aee8e-8ffd-4c4f-8b9f-7fc0dea113c8.jpg)
