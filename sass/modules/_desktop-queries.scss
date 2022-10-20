@@ -23,6 +23,7 @@
         }
         .main-nav ul{
             margin-left: 10em;
+            margin-top:4rem;
         }
         .main-nav ul li{
             margin-left: 3em;
@@ -30,7 +31,7 @@
         
         .user-login ul{
             margin-left: 40em;
-            margin-top: -50em;
+            margin-top: -47em;
         }
         .user-login ul li{
             margin-left: 3em;
@@ -56,4 +57,28 @@
             display: inline-block;
            
         }
+
+        button {
+            margin-left:11rem;
+            margin-right: 11rem;
+          }
+        .View_Prod_button{
+            margin-left:60rem;
+            margin-bottom: 2rem;
+          }
+
+          .Prod-Info{
+            background-color: rgba(83, 82, 80, 0.116);
+            height: 10rem;
+            color:$main-text-grey;
+            margin-left:30rem;
+            margin-right: 30rem;
+            margin-top: 3rem;
+            border: $main-colour solid 3px;
+          }
+          .close{
+            display: none;
+            margin-left: 110rem;
+          
+          }
     }

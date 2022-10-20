@@ -8,7 +8,29 @@ body{
     margin-bottom:5rem ;
 }
 .product-panel{
-    margin: 2em;
+    display:none;
+}
+.Prod-Info{
+    display: none;
+    background-color: rgba(83, 82, 80, 0.116);
+}
+.Prod-Info h2{
+  font-size: larger;
+  font-weight: 900;
+  margin-left: 30rem;
+}
+.Prod-Info h3{
+    font-size: .95em;
+    font-weight: 700;
+    margin-left: 33rem;
+    margin-top: 1rem;
+    color: $main-colour;
+}
+.Prod-Info h4{
+  font-size: .75em;
+  font-weight: 400;
+  margin-left: 30rem;
+  margin-top: 1rem;
 }
 
 .blue{
@@ -17,6 +39,9 @@ body{
 
 .white{
     background-color: $main-bg;
+}
+ul li:hover{
+    color:$main-colour;
 }
 
 .about p {
@@ -62,14 +87,41 @@ footer {
   }
 
   img {
-    width: 50%;
-    height:50%;
-    margin: 2em;
+    width: 10%;
+    height:10%;
+    margin: 1rem;
   }
 
   .picture{
     display: flex;
-    flex-direction: column;
-    margin-left: 40rem;
+    flex-direction: row;
+    margin-left: 1rem;
     margin-bottom: 2rem;
+  }
+  .picture img {
+    width:50%;
+    height: 50%;
+    border: $main-colour solid 1rem;
+  }
+
+  .nav-buttons{
+    margin-top:2rem;
+    background-color: $main-colour;
+    color: $main-bg;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 5px;
+  }
+
+  .View_Prod_button{
+    margin-top:2rem;
+    background-color: $main-colour;
+    color: $main-bg;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 5px;
+    font-size: .75em;
+  }
+  .close{
+    display: none;
   }
